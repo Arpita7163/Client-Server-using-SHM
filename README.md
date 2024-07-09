@@ -2,21 +2,7 @@ Linux Multi-threaded Client-Server Using Shared Memory
 
 This project demonstrates a multi-threaded client-server architecture in Linux, using shared memory for communication between the server and its clients. The server can handle multiple clients simultaneously, logging all interactions to a file.
 
-Features
-* Multi-threaded Server: The server can handle multiple clients concurrently.
-* Shared Memory: Communication between the server and clients is facilitated through shared memory.
-* Semaphores: Synchronization is achieved using semaphores to ensure data integrity in the shared memory.
-* Logging: All interactions are logged to a file named shared_memory_log.txt.
-
-Getting Started
-
-Prerequisites
-* A Linux-based system
-* GCC compiler
-* POSIX thread library
-* POSIX semaphore library
-  
-Compilation
+COMPILATION
 To compile the server and client programs, use the following commands:
 
 gcc -pthread -o SHMserver.c
