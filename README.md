@@ -21,10 +21,8 @@ Start a client using:
 You can run multiple clients to test the multi-threaded functionality of the server.
 
 Project Structure
-
-* SHMserver.c: The server code, which handles incoming client connections, updates shared memory, and logs interactions.
-* SHMclient.c: The client code, which connects to the server, sends messages, and reads responses.
-* shared_memory_log.txt: The log file where all interactions are recorded.
+SHMserver.c: The server code, which handles incoming client connections, updates shared memory, and logs interactions.
+SHMclient.c: The client code, which connects to the server, sends messages, and reads responses. shared_memory_log.txt: The log file where all interactions are recorded.
 
 How It Works
 
